@@ -228,6 +228,16 @@ h6 {
         font-weight: 700;
     }
 
+    #intro h1, 
+    #intro h3, 
+    #intro h4, 
+    #intro h5, 
+    #intro h6 {
+        color: #fff;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+
     #intro p {
         width: 80%;
         margin: 0 auto 30px auto;
@@ -280,7 +290,7 @@ h6 {
         cursor: pointer;
     }
 
-    #intro .btn-get-started {
+    .btn-get-started {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -294,7 +304,7 @@ h6 {
         background: #18d26e;
     }
 
-        #intro .btn-get-started:hover {
+        .btn-get-started:hover {
             background: #fff;
             color: #18d26e;
         }

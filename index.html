@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--
         Hello there!
@@ -17,7 +18,8 @@
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,43 +43,7 @@
 </head>
 
 <body>
-
-    <!--==========================
-      Header
-    ============================-->
-    <header id="header">
-        <div class="container-fluid">
-
-            <div id="logo" class="pull-left">
-                <h1><a href="#intro" class="scrollto">Illiana</a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
-            </div>
-
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li class="menu-active"><a href="#intro">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="showinfo.html">Show Information</a></li>
-                    <li><a href="newsletters.html">Newsletters</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="map.html">Map</a></li>
-                    <li class="menu-has-children">
-                        <a href="#">Other</a>
-                        <ul>
-                            <li><a href="pictures.html">Pictures</a></li>
-                            <li><a href="links.html">Links</a></li>
-                            <li><a href="http://www.rockyforge.org/" target="_blank">Blacksmith Guild</a></li>
-                            <li><a href="train.html">Train Collectors</a></li>
-                            <li><a href="ladies.html">Lady's Activities</a></li>
-                            <li><a href="old/index.htm">Old Site</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav><!-- #nav-menu-container -->
-        </div>
-    </header><!-- #header -->
+    <div id="header-placeholder"></div>
     <!--==========================
       Intro Section
     ============================-->
@@ -89,13 +55,12 @@
 
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+                        <div class="carousel-background"><img src="img/intro-carousel/tom.jpg" alt=""></div>
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2>Illiana Antique Power Association</h2>
-                                <h2>Where the Past has a Future!</h2>
-                                <p>The Illiana Antique Power Association is a non-profit organization dedicated to the preservation of our early rural way of life and the mechanical marvels that changed farming forever.</p>
-                                <a href="#about" class="btn-get-started scrollto">Learn More</a>
+                                <h3>A Message from the President</h3>
+                                <a href="message.html" class="btn-get-started scrollto">Read Now</a>
                             </div>
                         </div>
                     </div>
@@ -106,8 +71,26 @@
                             <div class="carousel-content">
                                 <h2>Illiana Antique Power Association</h2>
                                 <h2>Power Show: July 19-21, 2019</h2>
-                                <p>Featuring Ford Tractors & Waterloo engines! A weekend full of things to see and do: steam engines, tractors, gas engines, DAILY PARADE, binding, threshing, combining, blacksmiths, corn shelling, sawmill, plowing, miniature trains, old cars & trucks, ladies activities, Sunday church service, food on the grounds, raffle, and flea market.</p>
+                                <p>Featuring Ford Tractors & Waterloo engines! A weekend full of things to see and do:
+                                    steam engines, tractors, gas engines, DAILY PARADE, binding, threshing, combining,
+                                    blacksmiths, corn shelling, sawmill, plowing, miniature trains, old cars & trucks,
+                                    ladies activities, Sunday church service, food on the grounds, raffle, and flea
+                                    market.</p>
                                 <a href="showinfo.html" class="btn-get-started scrollto">View More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2>Illiana Antique Power Association</h2>
+                                <h2>Where the Past has a Future!</h2>
+                                <p>The Illiana Antique Power Association is a non-profit organization dedicated to the
+                                    preservation of our early rural way of life and the mechanical marvels that changed
+                                    farming forever.</p>
+                                <a href="#about" class="btn-get-started scrollto">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -137,11 +120,11 @@
 
                 <header class="section-header">
                     <h3>About Us</h3>
-                    <p>The Illiana Antique Power Association is a non-profit organization dedicated to the preservation of our early rural way of life and the mechanical marvels that changed farming forever.</p>
+                    <p>The Illiana Antique Power Association is a non-profit organization dedicated to the preservation
+                        of our early rural way of life and the mechanical marvels that changed farming forever.</p>
                 </header>
 
                 <div class="row about-cols">
-
                     <div class="col-md-4 wow fadeInUp">
                         <div class="about-col">
                             <div class="img">
@@ -150,7 +133,8 @@
                             </div>
                             <h2 class="title"><a href="showinfo.html">Show Information</a></h2>
                             <p>
-                                Click here to view more information about this year's Power Show. The Power Show is held every year during the 3rd weekend of July.
+                                Click here to view more information about this year's Power Show. The Power Show is held
+                                every year during the 3rd weekend of July.
                             </p>
                         </div>
                     </div>
@@ -193,37 +177,43 @@
 
                 <header class="section-header wow fadeInUp">
                     <h3>About the Show</h3>
-                    <p>
-                        Every year, we have exhibitors from around the area come to show their antique farm equipment, ranging from tractors and mowers to threshers and steam engines.
-                        There's also several activies to watch like blacksmithing, corn shelling, a running sawmill, binding, threshing, and so much more!
+                    <p style="padding-bottom: 0px;">
+                        Every year, we have exhibitors from around the area come to show their antique farm equipment,
+                        ranging from tractors and mowers to threshers and steam engines.
+                        There's also several activies to watch like blacksmithing, corn shelling, a running sawmill,
+                        binding, threshing, and so much more!
                     </p>
+                    <div class="text-center" style="padding-bottom: 30px;"><a href="showinfo.html" class="my-btn">Learn
+                            More</a></div>
                 </header>
 
                 <div class="row">
 
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <h4 class="title"><a href="">Antique Tractors</a></h4>
+                        <h4 class="title"><a href="showinfo.html">Antique Tractors</a></h4>
                         <p class="description">John Deere, Case IH, Ford, Allis Chalmers, and more!</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <h4 class="title"><a href="">Blacksmithing</a></h4>
+                        <h4 class="title"><a href="showinfo.html">Blacksmithing</a></h4>
                         <p class="description">Live blacksmiths working metal with anvils and forges!</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <h4 class="title"><a href="">Threshing</a></h4>
+                        <h4 class="title"><a href="showinfo.html">Threshing</a></h4>
                         <p class="description">Live threshing demonstrations!</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <h4 class="title"><a href="">Sawmill</a></h4>
+                        <h4 class="title"><a href="showinfo.html">Sawmill</a></h4>
                         <p class="description">Watch the crew cut logs using the old sawmill!</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <h4 class="title"><a href="">Flea Market</a></h4>
-                        <p class="description">A large flea market with antiques, tools, clothing, toys...they've got everything, really!</p>
+                        <h4 class="title"><a href="showinfo.html">Flea Market</a></h4>
+                        <p class="description">A large flea market with antiques, tools, clothing, toys...they've got
+                            everything, really!</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <h4 class="title"><a href="">Train Station</a></h4>
-                        <p class="description">Stop by one of the train stations to take a ride around the fairgrounds!</p>
+                        <h4 class="title"><a href="showinfo.html">Train Station</a></h4>
+                        <p class="description">Stop by one of the train stations to take a ride around the fairgrounds!
+                        </p>
                     </div>
 
                 </div>
@@ -236,88 +226,12 @@
         <section id="call-to-action" class="wow fadeIn">
             <div class="container text-center">
                 <h3>Follow Us on Facebook!</h3>
-                <p>Stay up to date with news from our Facebook page. Photos, announcements, monthly meetings, and more!</p>
+                <p>Stay up to date with news from our Facebook page. Photos, announcements, monthly meetings, and more!
+                </p>
                 <a class="cta-btn" href="https://www.facebook.com/illianaantiquepower/">Follow Us</a>
             </div>
         </section><!-- #call-to-action -->
-        <!--==========================
-          Team Section
-        ============================-->
-        <section id="team">
-            <div class="container">
-                <div class="section-header wow fadeInUp">
-                    <h3>Officers</h3>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 wow fadeInUp">
-                        <div class="member">
-                            <img src="img/team-1.jpg" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Tom Swanson</h4>
-                                    <span>President</span>
-                                    <div class="social">
-                                        <span>(765) 585-8371</span>
-                                        <span><a href="mailto:cfswanson12@aol.com">cfswanson12@aol.com</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="member">
-                            <img src="img/team-2.jpg" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Don Evans</h4>
-                                    <span>Vice President</span>
-                                    <div class="social">
-                                        <span>(217) 759-7215</span>
-                                        <span><a href="mailto:evansd646@aol.com">evansd646@aol.com</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="member">
-                            <img src="img/team-3.jpg" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Alan Stutler</h4>
-                                    <span>Vice President</span>
-                                    <div class="social">
-                                        <span>(765) 404-2027</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="member">
-                            <img src="img/team-4.jpg" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Doris Manlief</h4>
-                                    <span>Secretary, Treasurer</span>
-                                    <div class="social">
-                                        <span>(765) 742-4922</span>
-                                        <span><a href="mailto:jmanlief@hotmail.com">jmanlief@hotmail.com</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- #team -->
+        <div id="officers-placeholder"></div>
         <!--==========================
           Contact Section
         ============================-->
@@ -326,8 +240,11 @@
 
                 <div class="section-header">
                     <h3>Contact Us</h3>
-                    <p>You can contact our president, Tom Swanson, using the information below, or you can contact one of the officers listed above. We will get back with you as soon as possible!</p>
-                    <p>For questions about the website, please contact our webmaster, Adam Swanson: &#065;&#077;&#083;&#119;&#097;&#110;&#115;&#111;&#110;&#048;&#049;&#064;&#105;&#110;&#100;&#105;&#097;&#110;&#097;&#116;&#101;&#099;&#104;&#046;&#110;&#101;&#116;</p>
+                    <p>You can contact our president, Tom Swanson, using the information below, or you can contact one
+                        of the officers listed above. We will get back with you as soon as possible!</p>
+                    <p>For questions about the website, please contact our webmaster, Adam Swanson:
+                        &#065;&#077;&#083;&#119;&#097;&#110;&#115;&#111;&#110;&#048;&#049;&#064;&#105;&#110;&#100;&#105;&#097;&#110;&#097;&#116;&#101;&#099;&#104;&#046;&#110;&#101;&#116;
+                    </p>
                 </div>
 
                 <div class="row contact-info">
@@ -364,79 +281,7 @@
 
     </main>
 
-    <!--==========================
-      Footer
-    ============================-->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-8 footer-info">
-                        <h3>Illiana Antique Power Association</h3>
-                        <p>
-                            The Illiana Antique Power Association is a non-profit organization dedicated to the preservation of our early rural way of life and the mechanical marvels that changed farming forever.
-                            The Power Show is held every year during the 3rd weekend of July.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-8 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="index.html#about">About Us</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="showinfo.html">Show Information</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="newsletters.html">Newsletters</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="events.html">Events</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="map.html">Map</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4 col-md-8 footer-contact">
-                        <h4>Contact Us</h4>
-                        <p>
-                            Rainsville, IN<br>
-                            <strong>President:</strong> Tom Swanson<br>
-                            <strong>Phone:</strong> (765) 585-8371<br>
-                            <strong>Email:</strong> <a href="mailto:cfswanson12@aol.com">cfswanson12@aol.com</a><br>
-                        </p>
-
-                        <div class="social-links">
-                            <a href="https://www.facebook.com/illianaantiquepower/" class="facebook"><i class="fa fa-facebook"></i></a>
-                        </div>
-
-                    </div>
-                    <!--
-                        <div class="col-lg-3 col-md-6 footer-newsletter">
-                        <h4>Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                        -->
-
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="copyright">
-                &copy; Copyright 2019 <strong>Illiana Antique Power Association</strong>. All Rights Reserved.
-            </div>
-            <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-                -->
-                <p style="margin: 0;">Webmaster: Adam Swanson</p>
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-        </div>
-    </footer><!-- #footer -->
+    <div id="footer-placeholder"></div>
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     <!-- Uncomment below i you want to use a preloader -->
@@ -455,11 +300,14 @@
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
-
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+    <script>
+        $(function () {
+            $("#li-home").addClass("menu-active");
+        })
+    </script>
 
 </body>
+
 </html>
